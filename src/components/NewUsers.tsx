@@ -44,7 +44,7 @@ const NewUsers = () => {
   };
 
   return (
-    <Box sx={{ maxWidth: 500, mx: "auto", mt: 5, p: 3, backgroundColor: "#fff", borderRadius: 2 }}>
+    <Box sx={{ maxWidth: 500, mx: "auto", mt: 5, p: 3, backgroundColor: "#fff", borderRadius: 2, maxHeight: 580 }}>
       <Typography variant="h5" color="black" mb={2}>
         Add New User
       </Typography>

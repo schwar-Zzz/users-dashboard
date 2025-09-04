@@ -22,6 +22,7 @@ function DashboardLayout() {
 
 
       {/* Sidebar */}
+      
       <Drawer
         variant="permanent"
         sx={{
@@ -37,6 +38,7 @@ function DashboardLayout() {
         }}
       >
         <Toolbar className='h-[72px]' /> {/* pushes drawer content below the AppBar */}
+        
         <List sx={{p:2.5 }} className='mt-10'>
           
           <ListItemButton
@@ -74,7 +76,8 @@ function DashboardLayout() {
       <Box component="main" sx={{ flexGrow: 1, p: 3, marginleft: `${drawerWidth}px` }}>
 
 
-        <Toolbar className=' text-white ' />  {/* pushes content below the AppBar */}
+        {/* <Toolbar className='  text-white ' />  pushes content below the AppBar */}
+        
         <Outlet /> {/* Where pages show up */}
       </Box>
     </Box>
